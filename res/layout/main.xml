@@ -18,7 +18,8 @@
         <EditText
             android:id="@+id/edit_memo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" 
+            android:inputType="text" />
     </LinearLayout>
 
     <!-- 設定用ボタン -->
@@ -52,5 +53,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
     </ListView>
+    <!-- データが1行もないときに表示するテキストビュー -->
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_memo" />
 
 </LinearLayout>
