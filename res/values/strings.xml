@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MemoPadActivity!</string>
+    
+    <!-- アプリケーション名 -->
+    <string name="app_name">MemoPad2</string>
+    
+    <!-- 登録されたメモがない場合に表示する説明 -->
+    <string name="no_memo">メモがありません</string>
+    
+    <!-- ボタンの表示文字列 -->
+    <string name="delete_label">削除</string>
+    <string name="modify_label">変更</string>
+    <string name="add_label">追加</string>
+    
+    <!-- ID表示用テキストボックスに表示するヒント -->
+    <string name="id_label">ID</string>
+
+</resources>
